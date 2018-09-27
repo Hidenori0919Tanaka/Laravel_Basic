@@ -178,3 +178,5 @@ use App\Address;
 // Route::get('/',function(){
 
 // });
+
+Route::resource('/posts', 'PostsController');
